@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "main": "game/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-3",
+      "stage-2"
+    ]
+  }
+}
