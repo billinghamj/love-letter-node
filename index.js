@@ -1,5 +1,3 @@
 import Game from './game';
 
-const game = new Game();
-
-game.resetCards();
+const game = new Game(3);
